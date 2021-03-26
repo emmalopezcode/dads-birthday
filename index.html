@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AttnGAN Gallery</title>
+    <title>Happy Birthday Dad!</title>
     <style>
         html,
         body {
@@ -12,31 +12,21 @@
             overflow: hidden;
             margin: 0;
         }
-
-        input {
-            position: fixed;
-            top: 90vh;
-            left: 50vw;
-            transform: translate(-50%, -50%);
-            background: transparent;
-            border: 1px solid #fff;
-            padding: 10px 20px;
-            font-size: 24px;
-            color: #fff;
-            opacity: 0.2;
-            outline: none;
-            transition: 0.5s;
-            border-radius: 5px;
-        }
-
-        input:focus {
-            opacity: 1;
+        .text-overlay {
+            color: white;
+            position: absolute;
+            font-family:'Courier New', Courier, monospace;
+            left: 37%;
+            top: 75%;
         }
     </style>
 </head>
 
 <body>
-    <input type="text" id="caption" placeholder="Type a caption">
+    <div class='text-overlay'>
+        <h1>Happy Birthday Dad!!!</h1>
+        <p>I hope you enjoy this little gallery of your work</p>
+    </div>
     <script src="third_party/three.min.js"></script>
     <script src="third_party/OrbitControls.js"></script>
     <script src="js/index.js"></script>
