@@ -1,0 +1,26 @@
+html,
+        body {
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+        }
+        .text-overlay {
+            color: white;
+            position: absolute;
+            font-family:'Courier New', Courier, monospace;
+            left: 37%;
+            top: 75%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            border: solid white 1.5px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+        }
