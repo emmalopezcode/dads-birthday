@@ -48,7 +48,7 @@ function addBox(imageUrl, index) {
 
 var photos = ['copenhagen', 'hana', 'creek', 'kamaole', 'utah', 'yosemite', 'italia', 'london', 'snow']
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < photos.length; i++) {
     addBox(`img/${photos[i]}.jpg`, i)
 }
 
